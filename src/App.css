@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.fistImg{
+  background-image: url("./images/hero_1.jpg.webp") ;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 22rem;
+  width: 100%;
+  height: 650px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+::placeholder {
+  
+  text-align: right;
+}
+*{
+  font-family: Vazir !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("./vazir-font-master/dist/Vazir-Regular.eot");
+  src: url("./vazir-font-master/dist/Vazir-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./vazir-font-master/dist/Vazir-Regular.woff2") format("woff2"),
+    url("./vazir-font-master/dist/Vazir-Regular.woff") format("woff"),
+    url("./vazir-font-master/dist/Vazir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./vazir-font-master/dist/Vazir-Bold.eot");
+  src: url("./vazir-font-master/dist/Vazir-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./vazir-font-master/dist/Vazir-Bold.woff2") format("woff2"),
+    url("./vazir-font-master/dist/Vazir-Bold.woff") format("woff"),
+    url("./vazir-font-master/dist/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./vazir-font-master/dist/Vazir-Black.eot");
+  src: url("./vazir-font-master/dist/Vazir-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./vazir-font-master/dist/Vazir-Black.woff2") format("woff2"),
+    url("./vazir-font-master/dist/Vazir-Black.woff") format("woff"),
+    url("./vazir-font-master/dist/Vazir-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./vazir-font-master/dist/Vazir-Medium.eot");
+  src: url("./vazir-font-master/dist/Vazir-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./vazir-font-master/dist/Vazir-Medium.woff2") format("woff2"),
+    url("./vazir-font-master/dist/Vazir-Medium.woff") format("woff"),
+    url("./vazir-font-master/dist/Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./vazir-font-master/dist/Vazir-Light.eot");
+  src: url("./vazir-font-master/dist/Vazir-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./vazir-font-master/dist/Vazir-Light.woff2") format("woff2"),
+    url("./vazir-font-master/dist/Vazir-Light.woff") format("woff"),
+    url("./vazir-font-master/dist/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./vazir-font-master/dist/Vazir-Thin.eot");
+  src: url("./vazir-font-master/dist/Vazir-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./vazir-font-master/dist/Vazir-Thin.woff2") format("woff2"),
+    url("./vazir-font-master/dist/Vazir-Thin.woff") format("woff"),
+    url("./vazir-font-master/dist/Vazir-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
