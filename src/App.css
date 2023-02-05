@@ -11,7 +11,7 @@
   padding-top: 7rem;
   padding-bottom: 22rem;
   width: 100%;
-  height: 680px;
+  height: 650px;
 }
 .App-logo {
   height: 40vmin;
@@ -35,6 +35,29 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+.swiper {
+  width: 80%;
+  height: 70%;
+  position: relative;
+  margin-top: 130px;
+ margin-right: 300px !important;
+}
+
+.swiper-slide {
+
+  font-size: 18px;
+  background: rgba(0, 58, 112, 0.9);
+
+  /* Center slide text vertically */
+
+}
+
+.swiper-slide img {
+
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
 }
 
 
