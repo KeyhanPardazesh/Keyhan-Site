@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.aboutUsSec{
+  font-size: 15px;
+}
+.swiper{
+  width: 95% !important;
+margin-left: 0% !important;
+}
+h2{
+  font-size: 20px !important;
+}
+h5{
+  font-size: 15px!important;
+}
+h4{
+  font-size: 18px!important;
+}
+p{
+  font-size: 15px!important;
+}
+strong{
+  font-size: 20px!important;
+}
+.textBeforeSlider{
+  margin-top:15%!important;
+}
+.stats{
+width: 600px!important;
+}
+.statsSec{
+ margin: 0px !important;
+ padding-top: 10px!important;
+}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+/* For landscape layouts only */
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+/* For landscape layouts only */
+}
+
+
+
+
 .fistImg{
   background-image: url("./images/hero_1.jpg.webp") ;
 

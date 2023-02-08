@@ -19,7 +19,7 @@ function App() {
     AOS.init();
   }, []);
   return (
-    <div className="App">
+    <div className="App" >
       <div className="fistImg">
         <h1
           data-aos="zoom-in"
@@ -41,6 +41,7 @@ function App() {
         </h3>
       </div>
       <div
+  
         style={{
           backgroundColor: "rgb(20, 66, 114)   ",
           width: "100%",
@@ -74,11 +75,11 @@ function App() {
               style={{ marginTop: "20px" }}
             />
           </Col>
-          <Col style={{ paddingTop: "50px" }}>
+          <Col style={{ paddingTop: "50px" }}     className="aboutUsSec">
             <p
               style={{
                 color: "rgba(255, 255, 255, 0.5)",
-                width: "600px",
+                width: "80%",
                 textAlign: "right",
               }}
               data-aos="fade-up"
@@ -93,7 +94,7 @@ function App() {
             <p
               style={{
                 color: "rgba(255, 255, 255, 0.5)",
-                width: "600px",
+                width: "80%",
                 textAlign: "right",
               }}
               data-aos="fade-up"
@@ -108,7 +109,7 @@ function App() {
             <p
               style={{
                 color: "rgba(255, 255, 255, 0.5)",
-                width: "600px",
+                width: "80%",
                 textAlign: "right",
               }}
               data-aos="fade-up"
@@ -170,13 +171,14 @@ function App() {
             />
           </Col>
           <Col
-            style={{ paddingTop: "50px", marginTop: "50px" }}
+          className="textBeforeSlider"
+            style={{ paddingTop: "10%", marginTop: "50px" }}
             xs={{ span: 6 }}
           >
             <p
               style={{
                 color: "rgba(0, 0, 0, 0.5)",
-                width: "600px",
+                width: "80%",
                 textAlign: "right",
               }}
               data-aos="fade-up"
@@ -345,9 +347,10 @@ function App() {
           </h2>
           <div
             style={{ display: "flex", marginTop: "100px", width: "100%" }}
-            className="px-5"
+            className="statsSec px-5"
           >
             <div
+    
               data-aos="fade-up"
               data-aos-duration="1000"
               style={{
@@ -357,7 +360,7 @@ function App() {
                 paddingTop: "40px",
                 marginTop: "30px",
               }}
-              className="mx-auto"
+              className="stats mx-auto"
             >
               <img src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/FD7E14/external-handshake-business-nawicon-detailed-outline-nawicon.png" />
               <strong
@@ -381,7 +384,7 @@ function App() {
                 height: "300px",
                 paddingTop: "40px",
               }}
-              className="mx-auto"
+              className="stats mx-auto"
             >
               <img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/FD7E14/external-Mouse-electronic-and-device-outline-bartama-outline-64-bartama-graphic.png" />
               <strong
@@ -406,7 +409,7 @@ function App() {
                 paddingTop: "40px",
                 marginTop: "30px",
               }}
-              className="mx-auto"
+              className="stats mx-auto"
             >
               <img src="https://img.icons8.com/ios/60/FD7E14/open-in-window.png" />
               <strong
@@ -430,7 +433,7 @@ function App() {
                 height: "300px",
                 paddingTop: "40px",
               }}
-              className="mx-auto"
+              className="stats mx-auto"
             >
               <img src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/FD7E14/external-mouse-cursor-essentials-icongeek26-outline-icongeek26.png" />
               <strong
@@ -450,7 +453,7 @@ function App() {
       </div>
       <div style={{paddingBottom:"80px"}}>
       <Row>
-        <Col style={{ paddingTop: "200px" }}>
+        <Col style={{ paddingTop: "20px" }}>
           <h2 style={{ color: "#003a70" }}>هر کاری را در یک مکان انجام دهید</h2>
           <p style={{width:"70%",color:"rgba(0, 0, 0, 0.5)"}} className="mx-auto">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -458,7 +461,7 @@ function App() {
 
           </p>
         </Col>
-        <Col style={{ paddingTop: "50px" }}>
+        <Col >
      
           <img
             src={image3}
@@ -468,17 +471,34 @@ function App() {
             data-aos-duration="1500"
             style={{ marginTop: "20px"}}
           />
-     
-          <img
-            src={image4}
-            alt="img1"
-            width="15%"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            style={{ marginTop: "20px" ,position:"absolute",left:"50%",top:"3050px",border:"4px solid white"}}
-          />
+   
         </Col>
       </Row>
+      </div>
+      <div style={{    padding:" 70px 0",backgroundColor:"#efefef"}}>
+<Row className="mx-auto">
+  <Col ><div>
+    <h4 style={{color:"#ff8e71",marginBottom:"20px"}}>راه های ارتباطی</h4>
+    <address style={{fontSize:"14px",color:"#888"}}>فرمانیه . برج پارامیس </address>
+    <p  style={{fontSize:"14px",color:"#888"}}>09918769209</p>
+    <p  style={{fontSize:"14px",color:"#888"}}>keyhan@gmail.com</p>
+    </div></Col>
+  <Col><div>
+  <h4 style={{color:"#ff8e71",marginBottom:"20px"}}>منابع ما</h4>
+  <p  style={{fontSize:"14px",color:"#888"}}>سرویس ها</p>
+  <p  style={{fontSize:"14px",color:"#888"}}>درباره ما</p>
+  <p  style={{fontSize:"14px",color:"#888"}}>امنیت</p>
+
+    </div></Col>
+    <Col><div>
+  <h4 style={{color:"#ff8e71",marginBottom:"20px"}}>لینک ها</h4>
+  <p  style={{fontSize:"14px",color:"#888"}}>لینکدین</p>
+  <p  style={{fontSize:"14px",color:"#888"}}>گیت هاب</p>
+  <p  style={{fontSize:"14px",color:"#888"}}>تلگرام</p>
+
+    </div></Col>
+
+</Row>
       </div>
     </div>
   );
