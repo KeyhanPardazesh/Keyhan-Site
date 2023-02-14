@@ -17,6 +17,7 @@ import { CountUp } from "use-count-up";
 function App() {
   useEffect(() => {
     AOS.init();
+    
   }, []);
   return (
     <div className="App" >
@@ -122,6 +123,7 @@ function App() {
               کتابهای.
             </p>
             <div
+                 className="verticalLine"
               style={{
                 height: "250px",
                 borderLeft: "2px solid #ff8e71",
@@ -135,10 +137,11 @@ function App() {
         </Row>
       </div>
       <div
+   className="sec2"
         style={{
           backgroundColor: "white",
           width: "100%",
-          height: "1500px",
+      
           paddingTop: "30px",
         }}
       >
@@ -192,6 +195,7 @@ function App() {
             </p>
 
             <div
+       
               style={{
                 height: "100px",
                 borderLeft: "2px solid #ff8e71",
@@ -331,12 +335,16 @@ function App() {
             </Swiper>
           </Col>
         </Row>
+   
+   <div>
         <div
+        className="statsAll"
           style={{
             marginTop: "200px",
-            paddingRight: "200px",
-            paddingLeft: "200px",
+            // paddingRight: "200px",
+            // paddingLeft: "200px",
           }}
+        
         >
           <h2
             style={{ color: "#003a70" }}
@@ -355,14 +363,15 @@ function App() {
               data-aos-duration="1000"
               style={{
                 backgroundColor: "#fafafa",
-                width: "300px",
-                height: "300px",
+                width: "40%",
+                height: "40%",
                 paddingTop: "40px",
+                paddingBottom: "40px",
                 marginTop: "30px",
               }}
               className="stats mx-auto"
             >
-              <img src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/FD7E14/external-handshake-business-nawicon-detailed-outline-nawicon.png" />
+              <img  src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/FD7E14/external-handshake-business-nawicon-detailed-outline-nawicon.png" />
               <strong
                 style={{
                   display: "block",
@@ -380,9 +389,10 @@ function App() {
               data-aos-duration="1000"
               style={{
                 backgroundColor: "#fafafa",
-                width: "300px",
-                height: "300px",
+                width: "40%",
+                height: "40%",
                 paddingTop: "40px",
+                paddingBottom: "40px",
               }}
               className="stats mx-auto"
             >
@@ -404,9 +414,10 @@ function App() {
               data-aos-duration="1000"
               style={{
                 backgroundColor: "#fafafa",
-                width: "300px",
-                height: "300px",
+                width: "40%",
+                height: "40%",
                 paddingTop: "40px",
+                paddingBottom: "40px",
                 marginTop: "30px",
               }}
               className="stats mx-auto"
@@ -429,9 +440,10 @@ function App() {
               data-aos-duration="1000"
               style={{
                 backgroundColor: "#fafafa",
-                width: "300px",
-                height: "300px",
+                width: "40%",
+                height: "40%",
                 paddingTop: "40px",
+                paddingBottom: "40px",
               }}
               className="stats mx-auto"
             >
@@ -450,8 +462,9 @@ function App() {
             </div>
           </div>
         </div>
+     
       </div>
-      <div style={{paddingBottom:"80px"}}>
+      <div style={{ marginTop:"30px"}}>
       <Row>
         <Col style={{ paddingTop: "20px" }}>
           <h2 style={{ color: "#003a70" }}>هر کاری را در یک مکان انجام دهید</h2>
@@ -475,7 +488,7 @@ function App() {
         </Col>
       </Row>
       </div>
-      <div style={{    padding:" 70px 0",backgroundColor:"#efefef"}}>
+      <div className="footer" style={{    padding:" 70px 0",backgroundColor:"#efefef"}}>
 <Row className="mx-auto">
   <Col ><div>
     <h4 style={{color:"#ff8e71",marginBottom:"20px"}}>راه های ارتباطی</h4>
@@ -499,6 +512,7 @@ function App() {
     </div></Col>
 
 </Row>
+      </div>
       </div>
     </div>
   );

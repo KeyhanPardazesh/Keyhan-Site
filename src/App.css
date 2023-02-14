@@ -1,41 +1,233 @@
 .App {
   text-align: center;
 }
+@media only screen and (min-device-width: 1025px) and (max-device-width:3000px) {
+  .aboutUsSec{
+    font-size: 15px !important;
+  }
+  .swiper{
+    width: 95% !important;
+  margin-left: 0% !important;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  h5{
+    font-size: 15px!important;
+  }
+  h4{
+    font-size: 18px!important;
+  }
+  p{
+    font-size: 15px!important;
+  }
+  strong{
+    font-size: 20px!important;
+  }
+  .textBeforeSlider{
+    margin-top:2%!important;
+  }
+  .stats{
+  width: 600px!important;
+  }
+  .statsSec{
+   margin: 0px !important;
+   padding-top: 10px!important;
+  }
+  .sec2{
+    height:100px !important
+  }
+  .statsAll img{
+    width: 60px !important;
+        }
+        .verticalLine{
+          height:300px!important;
+        }
+  }
+@media only screen and (min-device-width: 424px) and (max-device-width:1024px) {
+  h2{
+    font-size: 15px !important;
+  }
+  h5{
+    font-size: 10px!important;
+  }
+  h4{
+    font-size: 10px!important;
+  }
+  p{
+    font-size:9px!important;
+  }
+  address{
+    font-size:9px!important;
+  }
+  strong{
+    font-size: 8px!important;
+  }
+  .swiper p{
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-.aboutUsSec{
-  font-size: 15px;
+  font-size:7px!important;
+  }
+  .stats{
+    width:700px!important;
+    }
+    .statsSec{
+     margin: 0px !important;
+     padding-top: 10px!important;
+    }
+    .statsAll{
+      padding: 0px !important;
+    }
+    .statsAll img{
+width: 30px !important;
+    }
+    .footer{
+      padding:20px  0px !important;
+    }
+    .verticalLine{
+      height: 80px!important;
+    }
+  
 }
-.swiper{
-  width: 95% !important;
-margin-left: 0% !important;
+@media only screen and (min-device-width: 375px) and (max-device-width: 423px) {
+  h2{
+    font-size: 15px !important;
+  }
+  h5{
+    font-size: 10px!important;
+  }
+  h4{
+    font-size: 10px!important;
+  }
+  p{
+    font-size:9px!important;
+  }
+  address{
+    font-size:9px!important;
+  }
+  strong{
+    font-size: 8px!important;
+  }
+  .swiper p{
+
+  font-size:7px!important;
+  }
+  .stats{
+    width:700px!important;
+    }
+    .statsSec{
+     margin: 0px !important;
+     padding-top: 10px!important;
+    }
+    .statsAll{
+      padding: 0px !important;
+    }
+    .statsAll img{
+width: 30px !important;
+    }
+    .footer{
+      padding:20px  0px !important;
+    }
+    .verticalLine{
+      height: 80px!important;
+    }
+  
 }
-h2{
-  font-size: 20px !important;
+@media only screen and (min-device-width:320px) and (max-device-width: 374px) {
+  h2{
+    font-size: 12px !important;
+  }
+  h5{
+    font-size: 10px!important;
+  }
+  h4{
+    font-size: 10px!important;
+  }
+  p{
+    font-size:9px!important;
+  }
+  address{
+    font-size:9px!important;
+  }
+  strong{
+    font-size: 8px!important;
+  }
+  .swiper p{
+
+  font-size:6px!important;
+  }
+  .stats{
+    width:700px!important;
+    }
+    .statsSec{
+     margin: 0px !important;
+     padding-top: 10px!important;
+    }
+    .statsAll{
+      padding: 0px !important;
+    }
+    .statsAll img{
+width: 30px !important;
+    }
+    .footer{
+      padding:20px  0px !important;
+    }
+    .textBeforeSlider{
+      padding-top:  150px !important;
+    }
+    .verticalLine{
+      height: 100px!important;
+    }
 }
-h5{
-  font-size: 15px!important;
+@media only screen and(min-device-width:10px) and (max-device-width: 319px) {
+  h2{
+    font-size: 12px !important;
+  }
+  h5{
+    font-size: 10px!important;
+  }
+  h4{
+    font-size: 10px!important;
+  }
+  p{
+    font-size:9px!important;
+  }
+  address{
+    font-size:9px!important;
+  }
+  strong{
+    font-size: 8px!important;
+  }
+  .swiper p{
+
+  font-size:7px!important;
+  }
+  .stats{
+    width:700px!important;
+    }
+    .statsSec{
+     margin: 0px !important;
+     padding-top: 10px!important;
+    }
+    .statsAll{
+      padding: 0px !important;
+    }
+    .statsAll img{
+width: 30px !important;
+    }
+    .footer{
+      padding:20px  0px !important;
+    }
+    .textBeforeSlider{
+      padding-top:  15px !important;
+    }
+    span{
+      font-size: 10px !important;
+    }
+    .verticalLine{
+      height: 100px!important;
+    }
 }
-h4{
-  font-size: 18px!important;
-}
-p{
-  font-size: 15px!important;
-}
-strong{
-  font-size: 20px!important;
-}
-.textBeforeSlider{
-  margin-top:15%!important;
-}
-.stats{
-width: 600px!important;
-}
-.statsSec{
- margin: 0px !important;
- padding-top: 10px!important;
-}
-}
+
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
 /* For landscape layouts only */
 }
